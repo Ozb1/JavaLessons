@@ -10,7 +10,7 @@ public class SummNumberFromUser {
         int result = 0;
         for(int i = 1; i < userNumber; i++)
         {
-            result += + 1;        
+            result += + i;        
         }
         System.out.println(result);
     }
