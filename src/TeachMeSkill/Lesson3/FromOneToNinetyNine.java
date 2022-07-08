@@ -6,7 +6,7 @@ public class FromOneToNinetyNine {
         {
             if(i % 2 != 0)
             {
-                System.out.print(i);
+                System.out.print(" " + i + " ");
             }
         }
     }
