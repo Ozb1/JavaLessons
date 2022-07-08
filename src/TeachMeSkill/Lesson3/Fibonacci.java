@@ -5,6 +5,7 @@ public class Fibonacci {
         int number0 = 1;
         int number1 = 1;
         int number2;
+        System.out.print("Fibonacci numbers: ");
         System.out.print(number0 + " " + number1 + " ");
         for(int i = 3; i <= 11; i++)
         {

@@ -7,12 +7,13 @@ public class SummNumberFromUser {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter your number: ");
         int userNumber = in.nextInt();
-        int result = 0;
+
+        int summ = 0;
         for(int i = 1; i < userNumber; i++)
         {
-            result += + 1;
-            System.out.println(result);
+            summ += + i;
         }
+        System.out.println("Summ of numbers is: " + summ);
 
     }
 }
