@@ -10,9 +10,8 @@ public class SummNumberFromUser {
         int result = 0;
         for(int i = 1; i < userNumber; i++)
         {
-            result += + 1;
-            System.out.println(result);
+            result += + 1;        
         }
-
+        System.out.println(result);
     }
 }
