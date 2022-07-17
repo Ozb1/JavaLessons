@@ -11,7 +11,6 @@ public class Main {
         main.randomArrayEnterdUser();
         main.deleteAllInput();
         main.randomNumber();
-
     }
     public void twoArrays()
     {
