@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Main main = new Main();
-        main.TrippleArray();
-        main.ChessDesk();
-        main.MultiplyTwoArrays();
-        main.SummTwoArrays();
-        main.DiagonalValue();
-        main.ArraySort();
+        main.trippleArray();
+        main.chessDesk();
+        main.multiplyTwoArrays();
+        main.summTwoArrays();
+        main.diagonalValue();
+        main.arraySort();
     }
-    public void TrippleArray()
+    public void trippleArray()
     {
         int[][][]  tripleArray = {{{3,2,5},{3,4,2}},{{2,1,6}},{{4,2,1},{2,4}}};
         System.out.println("Enter value for increase array value: ");
@@ -27,7 +27,7 @@ public class Main {
         }
         System.out.println(Arrays.deepToString(tripleArray));
     }
-    public void ChessDesk()
+    public void chessDesk()
     {
         String cube1 = " W ";
         String cube2 = " B ";
@@ -62,7 +62,7 @@ public class Main {
             System.out.println();
         }
     }
-    public void MultiplyTwoArrays()
+    public void multiplyTwoArrays()
     {
         int[][] array1 = {{1,0,0},{0,1,0},{0,0,0}};
         int[][] array2 = {{1,2,3},{1,1,1},{0,0,0},{2,1,0}};
@@ -85,7 +85,7 @@ public class Main {
             }
         }
     }
-    public void SummTwoArrays(){
+    public void summTwoArrays(){
         int[][] array1 ={{2,4,1},{2,6,5}, {1,7,4}};
         int result = 0;
         for (int[] ints : array1) {
@@ -95,7 +95,7 @@ public class Main {
         }
         System.out.println("result is: " + result);
     }
-    public void DiagonalValue()
+    public void diagonalValue()
     {
         int[][] array = {{1,5,3,4}, {2, 5, 6, 5}, {2, 1, 1, 6},{9,7,9,10}};
         int index = array.length - 1;
@@ -113,7 +113,7 @@ public class Main {
         }
         System.out.println();
     }
-    public void ArraySort() {
+    public void arraySort() {
         int[][] array = {{1, 5, 3, 4}, {2, 5, 6, 5}, {2, 1, 1, 6}, {5, 7, 9, 10}};
         for(int i = 0; i < 15; i++)
         {
