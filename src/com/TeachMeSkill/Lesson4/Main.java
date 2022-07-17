@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Main main = new Main();
-        main.ArrayWithNotEven();
-        main.Contain();
+        main.arrayWithNotEven();
+        main.contain();
         main.deleteAllInput();
-        main.RandomArrayEnterdUser();
+        main.randomArrayEnterdUser();
         main.randomNumber();
         main.twoArrays();
     }
@@ -115,7 +115,7 @@ public class Main {
 
     }
 
-    public void Contain()
+    public void contain()
     {
         int[] array = {4, 3, 6, 7, 2, 1};
         Scanner scanner = new Scanner(System.in);
@@ -138,7 +138,7 @@ public class Main {
 
 
 
-    public void RandomArrayEnterdUser()
+    public void randomArrayEnterdUser()
     {
         System.out.println("Enter Size of array: ");
         Scanner scanner = new Scanner(System.in);
@@ -180,7 +180,7 @@ public class Main {
 
     }
 
-    public void ArrayWithNotEven()
+    public void arrayWithNotEven()
     {
         int[] array = {2,5,4,3,6,5,7,34};
         for (int j : array) {
