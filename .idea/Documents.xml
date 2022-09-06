@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <name>Lesson18</name>
+    <people>
+        <element>
+            <name>Ivan</name>
+            <age>12</age>
+        </element>
+        <element>
+            <name>Andrei</name>
+            <age>28</age>
+        </element>
+        <element>
+            <name>Kirill</name>
+            <age>40</age>
+        </element>
+        <element>
+            <name>Vitja</name>
+            <age>22</age>
+        </element>
+    </people>
+</root>
